@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import axios from 'axios'
 const actorEndPoint = 'https://lanciweb.github.io/demo/api/actors/'
 const actressEndpoint = 'https://lanciweb.github.io/demo/api/actresses/'
+import Cards from './components/Cards'
 
 function App() {
 
